@@ -1,7 +1,10 @@
 To run the project:
+Note. You may have to have Knex installed locally.
+run `npm knex -g install`
 
-1. Run `npm install`
-2. To run the server, `npm start`
+1. Install project: `npm install`
+2. initalize database: `knex migrate:latest`
+3. To run the server, `npm start`
 
 
 Endpoints:
