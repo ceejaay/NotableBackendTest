@@ -1,0 +1,21 @@
+{
+  "name": "notable_test",
+  "version": "1.0.0",
+  "description": "A take-home test for Notable",
+  "main": "index.js",
+  "scripts": {
+    "test": "start",
+    "start": "nodemon index.js"
+  },
+  "author": "Chad Jemmett",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.19.4"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "knex": "^0.20.0",
+    "sqlite3": "^4.1.0"
+  }
+}
