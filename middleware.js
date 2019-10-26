@@ -13,11 +13,11 @@ timeParse = (req, res, next) => {
   }
 }
 
-middleware2 = (req, res, next) => {
-  console.log("Middleware 2 working")
+dateParse = (req, res, next) => {
+  const {date} = req.body
+  console.log(date)
   next()
-
 }
 
 
-module.exports = { timeParse, middleware2 }
+module.exports = { timeParse, dateParse}
